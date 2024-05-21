@@ -44,11 +44,11 @@ def check_state(filename):
                 
     if orig == True:
         # tu dinge
-        print('Datei im Originalzustand!')
-        print('Zeile: {}'.format(zeilenr))
+        print('File in origin state!')
+        print('Line: {}'.format(zeilenr))
         change_line(filename, zeilenr)
     elif orig == False:
-        print('Datei schon modifiziert!')
+        print('File already modified!')
 
 def change_line(filename, zeilenr):
     old = r'"$$$/AgImportDialog/ShootArrangement_1/Template=%Y/%m-%d"'
@@ -68,7 +68,7 @@ def change_line(filename, zeilenr):
             index = index + 1
             data_new.append(zeile)
         elif index == zeilenr:
-            print('Ändere Zeile...')
+            print('Change line...')
             index = index + 1
             data_new.append(new)
     
