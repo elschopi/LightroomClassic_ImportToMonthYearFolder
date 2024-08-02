@@ -17,3 +17,4 @@ If the file already has been altered, you'll get a message.
 
 Of course this can be used to inject other import options instead of "MONTH YEAR".
 
+Here you can find an overview of the usable commands: [link to archive.org](https://web.archive.org/web/20160227080331/http://digital-photography-howto.com/translatedstrings-txt-explained-customizing-the-file-structure-in-adobe-lightroom/)
