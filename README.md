@@ -21,3 +21,5 @@ Of course this can be used to inject other import options instead of "MONTH YEAR
 Here you can find an overview of the usable commands: [link to archive.org](https://web.archive.org/web/20160227080331/http://digital-photography-howto.com/translatedstrings-txt-explained-customizing-the-file-structure-in-adobe-lightroom/)
 
 If you are using Lightroom on a system that has its language settings natively set to EN, there may be no appropriate file. In that case, from what I was able to gather from [this forum post](https://www.lightroomqueen.com/community/threads/custom-folder-structure-on-import.46747/), you need to rename translated_strings.txt to TranslatedStrings_Lr_en_US.txt.
+
+NEW: added a version with GUI (tkinter) as a new release with more functions. 
